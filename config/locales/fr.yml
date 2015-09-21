@@ -1,0 +1,33 @@
+---
+fr:
+  activerecord:
+    models:
+      spree/question_category:
+        one: Catégorie de question
+        other: Catégories de question
+      spree/question:
+        one: Question
+        other: Questions
+    attributes:
+      spree/question_category:
+        question: Question
+        answer: Réponse
+        created_at: Créé le
+        updated_at: Mis-à-jour le
+      spree/question:
+        name: Nom
+        question: Question
+        answer: Réponse
+        created_at: Créé le
+        updated_at: Mis-à-jour le
+  spree:
+    new_question_category: Nouvelle catégorie de question
+    new_question: Nouvelle question
+    spree_faq:
+      questions: Questions
+      question_categories: Catégorie de question
+      add_question: Ajouter une question
+      category_name: Nom de la catégorie
+      frequently_asked_questions: Foire aux questions
+      faq: FAQ
+      faq_categories: Catégorie de FAQ
