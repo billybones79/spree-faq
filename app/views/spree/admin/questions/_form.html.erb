@@ -19,5 +19,12 @@
       </div>
     </div>
   </div>
-  <%= render "spree/admin/shared/#{resource.new_record? ? 'new' : 'edit'}_resource_links" %>
+
+    <%= render "spree/admin/shared/#{resource.new_record? ? 'new' : 'edit'}_resource_links" %>
+    <% if f.object.persisted? %>
+        <div class ='translationDiv'>
+            <%= link_to_with_icon 'translate', nil, admin_translations_path('question', f.object.id), title: Spree.t(:'i18n.translations'), class: 'btn btn-sm btn-primary' %>
+        </div>
+    <% end %>
+
 <% end %>
