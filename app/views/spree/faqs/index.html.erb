@@ -14,8 +14,9 @@
         </li>
       <% end %>
     <% end %>
+    </ul>
   </div>
-<% end if @categories.any? %>
+<% end if @categories != nil %>
 
 <section id="faqs" data-hook="faq_list">
   <% @categories.each do |category| %>
