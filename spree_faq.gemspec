@@ -41,6 +41,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'pry-rails', '>= 0.3.3'
   s.add_development_dependency 'coveralls', '>= 0.7.9'
   s.add_development_dependency 'rubocop', '>= 0.29.0'
-  s.add_development_dependency 'spree_i18n', '3-0-stable'
+  s.add_development_dependency 'spree_i18n', '~> 3.0'
 
 end
