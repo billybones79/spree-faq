@@ -57,7 +57,7 @@
   </table>
 <% else %>
   <div class="alert alert-warning no-objects-found">
-    <%= Spree.t(:no_resource_found, resource: Spree::QuestionCategory.model_name.human(count: :many)) %>,
+    <%= Spree.t(:no_resource_found, resource: plural_resource_name(Spree::QuestionCategory)) %>,
     <%= link_to Spree.t(:add_one), spree.new_admin_question_category_path %>!
   </div>
 <% end %>
